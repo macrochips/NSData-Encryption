@@ -25,6 +25,6 @@ NSData *encryptedData = [inputNSDataObj AES256EncryptWithKey:@"!npu+K3y"]:
 // Send/Save data to desired location
 
 // Decrypting
-NSData *decryptedData = [encryptedData AES256EncryptWithKey:@"!npu+K3y"]:
+NSData *decryptedData = [encryptedData AES256DecryptWithKey:@"!npu+K3y"]:
 // Cast and format and show the desired data to user
 ```
