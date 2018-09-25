@@ -1,7 +1,7 @@
 NSData+Encryption
 =============
 
-A NSData Category for Encrypting and Decrypting NSData with AES256 & AES 128 alongwith optional IV(Initialization Vector).
+A NSData Category for Encrypting and Decrypting NSData with AES256 & AES128 alongwith optional IV(Initialization Vector).
 
 ## Features
 
