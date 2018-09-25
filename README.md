@@ -18,7 +18,7 @@ A NSData Category for Encrypting and Decrypting NSData with AES256 & AES 128 alo
 **Code:**
 
 ```objc
-#import "NSData+Encryption"
+#import "NSData+Encryption.h"
 
 // Cast the desired object to NSData object for encrypting
 NSData *encryptedData = [inputNSDataObj AES256EncryptWithKey:@"!npu+K3y"]:
